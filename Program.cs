@@ -81,6 +81,7 @@ internal class Program
         //Console.WriteLine(firstName);
         #endregion
 
+    //Insertion
         // 1. Fill Students
         var students = new List<Student>
         {
@@ -224,7 +225,7 @@ internal class Program
             new Enrollment { EnrollmentID = 10, StudentID = 8, CourseID = 9, EnrollmentDate = DateTime.Now.AddMonths(-1), CompletionStatus = "In Progress", Score = 80.0m }
         };
 
-
+//Task Part
         // 1.
         Console.Write("1. ");
         var fullName = students.Select(s => s.FullName);
